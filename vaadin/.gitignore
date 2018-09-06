@@ -1,0 +1,9 @@
+/.metadata/
+/.settings/
+/target/
+/.idea/
+/.project
+/.classpath
+*.iml
+/dbProperties.txt
+src/main/resources/dbProperties.txt

@@ -1,0 +1,28 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+
+
+  @include addons;
+  @include mytheme;
+
+
+.v-button-Red {
+	background-color: red;
+    	background-image: none;
+}
+
+.v-button-friendly {
+	background-color: friendly;
+    	background-image: none;
+}
+
+.v-button-DarkGray {
+	background-color: darkgray;
+    	background-image: none;
+}
+}
